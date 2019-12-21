@@ -4,6 +4,8 @@ const _ = require('lodash');
 const React = require('react');
 const ReactNative = require('react-native');
 
+const NetInfo = require('@react-native-community/netinfo');
+
 const PropTypes = require('prop-types');
 
 const ImageCacheManagerOptionsPropTypes = require('./ImageCacheManagerOptionsPropTypes');
@@ -16,7 +18,6 @@ const {
     View,
     ImageBackground,
     ActivityIndicator,
-    NetInfo,
     Platform,
     StyleSheet,
 } = ReactNative;
